@@ -1,0 +1,3 @@
+0trace.sh /pentest/enumeration/0trace/  
+sendprobe.c /pentest/enumeration/0trace/
+types.h /pentest/enumeration/0trace/
