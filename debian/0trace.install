@@ -1,3 +1,4 @@
-0trace.sh /pentest/enumeration/0trace/  
-sendprobe.c /pentest/enumeration/0trace/
-types.h /pentest/enumeration/0trace/
+0trace.sh /usr/share/enumeration/0trace/  
+sendprobe.c /usr/share/enumeration/0trace/
+types.h /usr/share/enumeration/0trace/
+debian/kali-0trace.desktop usr/share/applications/

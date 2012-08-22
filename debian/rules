@@ -11,7 +11,4 @@
 
 %:
 	dh $@ 
-
-override_dh_install:
-	dh_install
-	chmod 755 debian/dnsrecon/pentest/enumeration/0trace/0trace.sh
+	
