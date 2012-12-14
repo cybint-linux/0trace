@@ -1,4 +1,3 @@
 0trace.sh /usr/share/0trace/  
 sendprobe.c /usr/share/0trace/
 types.h /usr/share/0trace/
-debian/kali-0trace.desktop usr/share/applications/
