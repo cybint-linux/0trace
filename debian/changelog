@@ -1,3 +1,9 @@
+0trace (0.01-3) kali; urgency=low
+
+  * Added usleep
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 19:42:43 -0400
+
 0trace (0.01-2) kali; urgency=low
 
   * Remove desktop file

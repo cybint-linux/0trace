@@ -12,3 +12,6 @@
 %:
 	dh $@ 
 	
+override_dh_auto_build:
+	gcc -o usleep usleep.c
+
