@@ -10,7 +10,7 @@ Vcs-Browser: http://git.kali.org/gitweb/?p=packages/0trace.git;a=summary
 
 Package: 0trace
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},tcdump
+Depends: ${shlibs:Depends}, ${misc:Depends},tcpdump
 Description: A traceroute tool that can run within an existing TCP connection.
  0trace is traceroute tool that can be run within an existing, open TCP connection, 
  therefore bypassing some types of stateful packet filters with ease.
