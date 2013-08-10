@@ -17,6 +17,6 @@ override_dh_auto_build:
 	gcc -o sendprobe sendprobe.c
 
 override_dh_auto_install:
-	install usleep bin/usleep
-	install sendprobe bin/sendprobe
-	install 0trace.sh usr/bin/0trace
+	install usleep debian/tmp/bin/usleep
+	install sendprobe debian/tmp/bin/sendprobe
+	install 0trace.sh debian/tmp/usr/bin/0trace
