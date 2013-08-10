@@ -1,4 +1,4 @@
-0trace.sh usr/share/0trace/  
-sendprobe.c usr/share/0trace/
+0trace.sh usr/bin/0trace  
 types.h usr/share/0trace/
 usleep bin/
+sendprobe bin/

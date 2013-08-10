@@ -14,4 +14,4 @@
 	
 override_dh_auto_build:
 	gcc -o usleep debian/usleep.c
-
+	gcc -o sendprobe sendprobe.c
