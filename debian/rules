@@ -4,5 +4,5 @@
 	dh $@ 
 	
 override_dh_auto_build:
-	gcc -o usleep debian/usleep.c
-	gcc -o sendprobe sendprobe.c
+	gcc -o usleep $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) debian/usleep.c
+	gcc -o sendprobe $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) sendprobe.c
