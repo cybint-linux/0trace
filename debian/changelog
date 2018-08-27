@@ -3,6 +3,7 @@
   * Add the kali marker in the version string as this is a Kali specific
     package.
   * Packaging cleanup.
+  * Clean up copyright file
 
  -- Raphaël Hertzog <hertzog@debian.org>  Mon, 27 Aug 2018 16:00:31 +0200
 
