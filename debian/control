@@ -1,16 +1,17 @@
 Source: 0trace
 Section: net
-Priority: extra
-Maintainer: dookie <dookie@kali.org>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Devon Kearns <dookie@kali.org>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.2.1
 Homepage: http://lcamtuf.coredump.cx
-Vcs-Git: ssh://git@git.kali.org/packages/0trace.git
+Vcs-Git: git://git.kali.org/packages/0trace.git
 Vcs-Browser: http://git.kali.org/gitweb/?p=packages/0trace.git;a=summary
 
 Package: 0trace
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},tcpdump
+Depends: ${shlibs:Depends}, ${misc:Depends}, tcpdump
 Description: A traceroute tool that can run within an existing TCP connection.
  0trace is traceroute tool that can be run within an existing, open TCP connection, 
  therefore bypassing some types of stateful packet filters with ease.
