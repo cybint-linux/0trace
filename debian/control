@@ -6,8 +6,8 @@ Uploaders: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.2.1
 Homepage: http://lcamtuf.coredump.cx
-Vcs-Git: git://git.kali.org/packages/0trace.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/0trace.git;a=summary
+Vcs-Git: https://gitlab.com/kalilinux/packages/0trace.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/0trace
 
 Package: 0trace
 Architecture: any
