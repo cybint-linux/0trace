@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Kali Developers <devel@kali.org>
 Uploaders: Devon Kearns <dookie@kali.org>
-Build-Depends: debhelper (>= 11)
+Build-Depends: debhelper (>= 12~)
 Standards-Version: 4.2.1
 Homepage: http://lcamtuf.coredump.cx
 Vcs-Git: https://gitlab.com/kalilinux/packages/0trace.git
