@@ -1,13 +1,21 @@
 0trace (0.01-3kali1) kali-dev; urgency=medium
 
-  * Team upload.
+  [ Kali Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+
+  [ Raphaël Hertzog ]
   * Add the kali marker in the version string as this is a Kali specific
     package.
   * Packaging cleanup.
   * Clean up copyright file
   * Pass build flags to gcc.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 27 Aug 2018 16:26:02 +0200
+  [ Sophie Brun ]
+  * Update packaging
+  * Upload to update VCS fields
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 25 Sep 2020 18:25:37 +0200
 
 0trace (0.01-3) kali; urgency=low
 
