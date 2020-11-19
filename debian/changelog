@@ -17,7 +17,7 @@
     package.
   * Packaging cleanup.
   * Clean up copyright file
-  * Pass build flags to gcc. 
+  * Pass build flags to gcc.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Mon, 27 Aug 2018 16:26:02 +0200
 
