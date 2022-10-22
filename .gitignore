@@ -1,8 +1,0 @@
-.pc
-debian/.debhelper/
-debian/*.substvars
-debian/0trace/
-debian/debhelper-build-stamp
-debian/files
-sendprobe
-usleep
