@@ -1,3 +1,10 @@
+0trace (0.01) unstable; urgency=medium
+
+  [ Tom Lee ]
+  * Imported from kali linux
+
+ -- Tom Lee <tom@cybint.io>  Fri, 25 Sep 2020 18:25:37 +0200
+
 0trace (0.01-3kali2) kali-dev; urgency=medium
 
   [ Kali Janitor ]
