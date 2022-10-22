@@ -13,4 +13,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: 0trace
-          path: ../0trace_0.01-cybint_amd64.deb
+          path: 0trace_0.01-cybint_amd64.deb
+      - run: ls; pwd
