@@ -1,3 +1,0 @@
-0trace.sh usr/bin/ 
-usleep bin/
-sendprobe bin/

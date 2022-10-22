@@ -6,3 +6,4 @@ debian/debhelper-build-stamp
 debian/files
 sendprobe
 usleep
+build/

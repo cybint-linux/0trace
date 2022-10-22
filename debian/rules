@@ -4,7 +4,12 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
 	dh $@
-	
+
+distclean:
+	rm -rf build
+
 override_dh_auto_build:
-	gcc -o usleep $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) debian/usleep.c
-	gcc -o sendprobe $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) sendprobe.c
+	mkdir -p build/usr/bin; mkdir -p build/bin
+	gcc -o build/bin/usleep $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) debian/usleep.c
+	gcc -o build/bin/sendprobe $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) sendprobe.c
+	cp 0trace.sh build/usr/bin/0trace

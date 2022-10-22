@@ -1,9 +1,10 @@
-0trace (0.01-4cybint) unstable; urgency=medium
+0trace (0.01-cybint) unstable; urgency=medium
 
-  [ Tom Lee ]
-  * Imported from kali linux
+  * Forked from Kali
+  * Added desktop menu
+  * Added svg icon
 
- -- Tom Lee <tom@cybint.io>  Fri, 25 Sep 2020 18:25:37 +0200
+ -- Coder <coder@cybint-linux.com>  Sat, 22 Oct 2022 14:12:01 -0400
 
 0trace (0.01-3kali2) kali-dev; urgency=medium
 
