@@ -11,6 +11,7 @@ jobs:
         with:
           buildpackage-opts: --build=binary --no-sign
       - run: ls; pwd
+      - run: cd /home/runner/work/0trace/; ls
       - uses: actions/upload-artifact@v3
         with:
           path: /home/runner/work/0trace/0trace_0.01-cybint_amd64.deb
