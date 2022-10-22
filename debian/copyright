@@ -5,8 +5,12 @@ Files: *
 Copyright: 2003-2007 Michal Zalewski <lcamtuf@coredump.cx>
 License: GPL-3.0+
 
-Files: debian/*
+Files: debian/{patches/*, usleep.c}
 Copyright: 2012 Devon Kearns <dookie@kali.org>
+License: GPL-3.0+
+
+Files: debian/*
+Copyright: 2022 CODINT <codint@cybint-linux.com>
 License: GPL-3.0+
 
 License: GPL-3.0+
